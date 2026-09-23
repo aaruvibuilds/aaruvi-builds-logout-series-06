@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aaruvi Builds — Logout 06</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="scene">
+  <div class="series-label">AARUVI BUILDS</div>
+
+  <section class="window" id="window">
+    <header class="nav">
+      <div class="identity">
+        <div class="logo">A</div>
+        <div class="identity-copy"><span>Workspace</span><strong>Studio</strong></div>
+      </div>
+      <div class="session"><i></i> SESSION ACTIVE</div>
+      <button class="logout" id="logout" type="button" aria-label="Log out of workspace">
+  <span>Logout</span>
+</button>
+    </header>
+
+    <div class="dashboard" id="dashboard">
+      <div class="top-copy">
+        <span class="kicker">Personal dashboard</span>
+        <h1>Everything you need,<br><em>in one place.</em></h1>
+      </div>
+
+      <div class="cards">
+        <article class="card featured">
+          <span class="kicker">Overview</span>
+          <strong>08</strong>
+          <small>active projects</small>
+          <div class="orbit"></div>
+        </article>
+        <article class="card">
+          <span class="kicker">Messages</span>
+          <strong>24</strong>
+          <small>unread messages</small>
+        </article>
+        <article class="card">
+          <span class="kicker">Storage</span>
+          <strong>72%</strong>
+          <small>workspace used</small>
+        </article>
+      </div>
+    </div>
+
+    <div class="fragment-stage" id="fragmentStage">
+      <div class="fragment-message">
+        <span class="kicker">Ending session</span>
+        <h2>Removing<br><em>your presence.</em></h2>
+      </div>
+      <div class="fragment-core" aria-hidden="true">
+        <span class="f f1"></span><span class="f f2"></span><span class="f f3"></span>
+        <span class="f f4"></span><span class="f f5"></span><span class="f f6"></span>
+        <span class="f f7"></span><span class="f f8"></span><span class="f f9"></span>
+        <span class="f f10"></span><span class="f f11"></span><span class="f f12"></span>
+        <span class="core-dot"></span>
+      </div>
+    </div>
+
+    <div class="signed-out" id="signedOut">
+      <div class="presence-mark"><span></span></div>
+      <span class="kicker">Session ended</span>
+      <h2>Nothing left<br><em>behind.</em></h2>
+      <p>Your session has been cleared.</p>
+      <button class="again" id="again" type="button">Enter workspace</button>
+    </div>
+  </section>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
